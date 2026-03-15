@@ -3,14 +3,13 @@ PowerShell Script to Retrieve AdSync sourceAnchor Attributes associated with Hyb
 
 <b>Usage:</b>
 
-<code>Get-AdSyncSourceAnchorAttibutes -Username <Username></code>
+<code>Get-AdSyncSourceAnchorAttibutes -Username \<Username\></code>
 
 <code>Get-AdSyncSourceAnchorAttibutes -objectGuid \<objectGUID\></code>
 
-<code>Get-AdSyncSourceAnchorAttibutes -msDsConsistencyGuid <mS-DS-ConsistencyGUID></code>
+<code>Get-AdSyncSourceAnchorAttibutes -msDsConsistencyGuid \<mS-DS-ConsistencyGUID\></code>
 
-<code>Get-AdSyncSourceAnchorAttibutes -ImmutableId <onPremisesImmutableID></code>
-
+<code>Get-AdSyncSourceAnchorAttibutes -ImmutableId \<onPremisesImmutableID\></code>
 
 <b>Get-AdSyncSourceAnchorAttibutes (Format-Table):</b>
 <center><img src="https://i.imgur.com/vsrlxw3_d.webp?maxwidth=760&fidelity=grand"/></center>
