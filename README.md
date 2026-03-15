@@ -15,5 +15,3 @@ PowerShell Script to Retrieve AdSync sourceAnchor Attributes associated with Hyb
 
 <b>Get-AdSyncSourceAnchorAttibutes (Format-List):</b>
 <center><img src="https://i.imgur.com/9iQaRjM_d.webp?maxwidth=760&fidelity=grand"/></center>
-
-<a href="https://imgur.com/a/grBWZDG">https://imgur.com/a/grBWZDG</a>
