@@ -5,7 +5,7 @@ PowerShell Script to Retrieve AdSync sourceAnchor Attributes associated with Hyb
 
 <code>Get-AdSyncSourceAnchorAttibutes -Username <Username></code>
 
-<code>Get-AdSyncSourceAnchorAttibutes -objectGuid <objectGUID></code>
+<code>Get-AdSyncSourceAnchorAttibutes -objectGuid \<objectGUID\></code>
 
 <code>Get-AdSyncSourceAnchorAttibutes -msDsConsistencyGuid <mS-DS-ConsistencyGUID></code>
 
