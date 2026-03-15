@@ -1,9 +1,7 @@
 # AdSyncSourceAnchorAttibutes
 PowerShell Script to Retrieve AdSync sourceAnchor Attributes associated with Hybrid AD User Accounts (On-Premises &amp; Entra/Azure AD)
 
-<b>AdSyncSourceAnchorAttibutes - Usage:</b>
-
-<b>"Username" Parameter:</b>
+<b><u>"Username" Parameter:</u></b>
 
 The "Username" Parameter will retrieve/calculate all three Values ("objectGUID", "mS-DS-ConsistencyGUID" & "ImmutableID"), via On-Premises AD.
 
@@ -11,19 +9,19 @@ The "Username" Parameter will retrieve/calculate all three Values ("objectGUID",
 
 <i><b>NOTE</b>: The "Username" Parameter utilizes the "Get-AdUser" Cmdlet and is therefore Dependant on the "ActiveDirectory" PowerShell Module.</i>
 
-<b>"ObjectGuid" Parameter:</b>
+<b><u>"ObjectGuid" Parameter:</u></b>
 
 The "ObjectGuid" Parameter will retrieve/calculate the "mS-DS-ConsistencyGUID" & "ImmutableID" Values.
 
 <code>Get-AdSyncSourceAnchorAttibutes -ObjectGuid \<objectGUID\></code>
 
-<b>"MsDsConsistencyGuid" Parameter:</b>
+<b><u>"MsDsConsistencyGuid" Parameter:</u></b>
 
 The "MsDsConsistencyGuid" Parameter will retrieve/calculate the "objectGUID" & "ImmutableID" Values.
 
 <code>Get-AdSyncSourceAnchorAttibutes -msDsConsistencyGuid \<mS-DS-ConsistencyGUID\></code>
 
-<b>"ImmutableId" Parameter:</b>
+<b><u>"ImmutableId" Parameter:</u></b>
 
 The "ImmutableId" Parameter will retrieve/calculate the "objectGUID" & "mS-DS-ConsistencyGUID" Values.
 
